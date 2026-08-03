@@ -1,23 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Docker Project</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+<?php
 
-    <div class="container">
-        <h1>Welcome to My Docker Project</h1>
-        <p>This website is running inside a Docker container.</p>
+for ($i = 0; $i <= 1000; $i++) {
+    if ($i == 1000) {
+        if ($i % 2 == 0) {
+            echo "<h2>$i is even.</h2>";
+        } else {
+            echo "<h2>$i is odd.</h2>";
+        }
+    }
+}
 
-        <button onclick="showMessage()">Click Me</button>
-
-        <p id="message"></p>
-    </div>
-
-    <script src="script.js"></script>
-
-</body>
-</html>
+?>
