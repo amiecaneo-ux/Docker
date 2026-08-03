@@ -5,4 +5,4 @@ WORKDIR /var/www/html/
 
 EXPOSE 8081
 
-ENTRYPOINT ["php", "-S", "localhost:8081"]
+CMD ["php", "-S", "0.0.0.0:8081"]

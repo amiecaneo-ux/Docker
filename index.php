@@ -1,2 +1,3 @@
-FROM php:8.2-apache
-    
+<?php
+include 'index.html';
+?>
